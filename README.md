@@ -16,3 +16,8 @@ brew "<formula>"
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+
+## Formulas Included
+
+* [bitwarden-accelerator](https://github.com/ajrosen/Bitwarden-Accelerator)
+* [icalPal](https://github.com/ajrosen/icalPal)
