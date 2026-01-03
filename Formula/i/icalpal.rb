@@ -8,7 +8,7 @@ class Icalpal < Formula
   version '4.0.0'
 
   url "https://rubygems.org/downloads/icalPal-#{version}.gem"
-  sha256 'f3f79b1306b6da7d4716de914810282282d71b15d33101ebf61f0cec7bf6baa7'
+  sha256 '938ceed353562079e27dca4c7a7bba732ea65523e6954ac79419ea3072e64381'
 
   depends_on 'ruby'
 
