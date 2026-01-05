@@ -5,10 +5,10 @@ class Icalpal < Formula
   homepage 'https://github.com/ajrosen/icalPal'
   desc 'Command-line tool to query the macOS Calendar and Reminders'
 
-  version '4.0.0'
+  version '4.1.0'
 
   url "https://rubygems.org/downloads/icalPal-#{version}.gem"
-  sha256 '938ceed353562079e27dca4c7a7bba732ea65523e6954ac79419ea3072e64381'
+  sha256 'b0d8cdf9116b80cc06e3bf99bbea298a9b1bb6399b8759360966338e8ec39629'
 
   depends_on 'ruby'
 
