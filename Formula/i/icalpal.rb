@@ -5,10 +5,10 @@ class Icalpal < Formula
   homepage 'https://github.com/ajrosen/icalPal'
   desc 'Command-line tool to query the macOS Calendar and Reminders'
 
-  version '4.1.0'
+  version '4.1.1'
 
   url "https://rubygems.org/downloads/icalPal-#{version}.gem"
-  sha256 'b0d8cdf9116b80cc06e3bf99bbea298a9b1bb6399b8759360966338e8ec39629'
+  sha256 '36e1b4eb3fa21656103c99a1c92c29a502f4086eaa1f1eb3925800020389db31'
 
   depends_on 'ruby'
 
@@ -40,7 +40,7 @@ class Icalpal < Formula
       (bin + file.basename).open('w') do |f|
         # rubocop: disable Layout/HeredocIndentation
         f << <<~RUBY
-#!#{Formula['ruby'].opt_bin}/ruby --disable-gems
+#!/usr/bin/ruby --disable-gems
 
 ENV['GEM_HOME']="#{prefix}"
 ENV['GEM_PATH']="#{prefix}"
