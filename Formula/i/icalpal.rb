@@ -40,7 +40,7 @@ class Icalpal < Formula
       (bin + file.basename).open('w') do |f|
         # rubocop: disable Layout/HeredocIndentation
         f << <<~RUBY
-#!/usr/bin/ruby --disable-gems
+#!#{Formula['ruby'].opt_bin}/ruby --disable-gems
 
 ENV['GEM_HOME']="#{prefix}"
 ENV['GEM_PATH']="#{prefix}"
