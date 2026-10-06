@@ -6,10 +6,10 @@ class BitwardenAccelerator < Formula
   homepage 'https://github.com/ajrosen/Bitwarden-Accelerator'
   desc 'Alfred Workflow to make using Bitwarden faster and smoother with all applications'
 
-  version '8.3.0'
+  version '8.4.0'
 
   url "#{homepage}/releases/download/bwa-#{version}/Bitwarden.Accelerator.alfredworkflow"
-  sha256 '247aeca5bdcbb50c3fdbf84644d1c37d41556bf5e0b9d7138f5a9cf8cd2f9775'
+  sha256 '264c4a95113893906ad41704b64dfe6cdd637d170300cb213e0f8fc3ff719eb3'
 
   depends_on 'bitwarden-cli'
   uses_from_macos 'jq', since: :sequoia
